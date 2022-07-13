@@ -1,0 +1,126 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  font-family: 'Red Hat Display', sans-serif;
+  background-color: hsl(225, 100%, 94%);
+}
+
+.card {
+  max-width: 345px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  border-radius: 15px;
+  background-color: white;
+}
+
+#hero-banner {
+  width: 100%;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: 900;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1rem;
+  text-align: center;
+  color: hsl(225, 100%, 98%);
+}
+
+h3 {
+  text-align: center;
+  color: hsl(224, 23%, 55%);
+  font-size: 0.9rem;
+  font-weight: 700;
+  margin: 25px auto;
+}
+
+.long-text {
+  color: hsl(224, 23%, 55%);
+  text-align: center;
+}
+
+.div-annual-plan {
+  border-radius: 10px;
+  width: 80%;
+  margin: 0 auto;
+  background-color: hsl(225, 100%, 98%);
+  padding: 15px;
+  height: 50px;
+}
+
+.annual-p {
+  font-weight: 700;
+  position: relative;
+  left: 15px;
+  bottom: 25px;
+  display: inline-block;
+}
+
+.per-year {
+  color: hsl(224, 23%, 55%);
+  display: inline-block;
+  position: relative;
+  left: -80px;
+  bottom: 5px;
+
+}
+
+.change {
+  font-weight: 700;
+  display: inline-block;
+  position: relative;
+  left: 210px;
+  bottom: 55px;
+}
+
+.change:hover {
+  text-decoration: none;
+  color: hsl(224, 23%, 55%);
+  cursor: pointer;
+}
+
+.proceed {
+  background-color: hsl(245, 75%, 52%);
+  padding: 1px 15px;
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.proceed2 {
+  background-color: hsl(225, 100%, 94%, 0.6);
+  padding: 1px 15px;
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 69.5px;
+  left: 19px;
+  display: none;
+}
+
+.proceed:hover + .proceed2{
+  display: block;
+}
+
+h3:hover {
+  color: hsl(223, 47%, 23%);
+  cursor: pointer;
+}
